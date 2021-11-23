@@ -24,3 +24,17 @@ opposite
 '''
 
 #start writing your code below
+
+number1 = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
+
+hi = number1 + number2
+
+if hi == 0 :
+  print("zero")
+elif hi > 0 :
+  print("positive")
+elif hi < 0 :
+  print("negative")
+else: 
+  print("Not a valid number.")
