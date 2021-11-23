@@ -22,4 +22,27 @@ Enter a month:  Saturday
 not a month
 '''
 
-#start writing your code below
+
+
+month = input("Enter a month: ")
+
+
+lower_month = month.lower()
+
+
+mth_thirtyone_days = ['january', 'march', 'may', 'july', 'august', 'october', 'december']
+
+mth_thirty_days = ['april', 'june', 'september', 'november']
+
+if lower_month == 'february':
+  print('28 or 29')
+elif lower_month in mth_thirtyone_days:
+  print('31')
+
+elif lower_month in mth_thirty_days:
+  print('30')
+else:
+  print('not a month')
+
+
+
